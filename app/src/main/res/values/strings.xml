@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Guess number!</string>
+    <string name="ahead">The number conceived is smaller</string>
+    <string name="behind">The number conceived is larger</string>
+    <string name="hit">You guessed the number!</string>
+    <string name="play_more">Play more...</string>
+    <string name="input_value">Again</string>
+    <string name="try_to_guess">Attempt</string>
+    <string name="TextView">Try guess number (1 - 100)</string>
+    <string name="Item0">Exit</string>
+    <string name="warning">Enter a number in the range 0 - 100!</string>
+</resources>

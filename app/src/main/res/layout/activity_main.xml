@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:id="@+id/my_layout_id"
+    tools:context="com.example.natal.lab2_pmvs.MainActivity">
+
+
+
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvInfo"
+        android:text="@string/TextView"
+        android:textColor="@color/textColor"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteY="148dp"
+        tools:layout_editor_absoluteX="76dp"
+        android:layout_marginTop="78dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/eInput"
+        android:textColor="@color/textColor"
+        tools:layout_editor_absoluteY="211dp"
+        tools:layout_editor_absoluteX="182dp"
+        android:layout_below="@+id/tvInfo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="104dp" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/bControl"
+        android:onClick="onClick"
+        tools:text="@string/input_value"
+        android:text="@string/input_value"
+        android:background="@color/buttonColor"
+        tools:layout_editor_absoluteY="307dp"
+        tools:layout_editor_absoluteX="24dp"
+        android:layout_marginTop="53dp"
+        android:layout_below="@+id/eInput"
+        android:layout_alignEnd="@+id/tvInfo"
+        android:layout_marginEnd="62dp" />
+
+</RelativeLayout>
